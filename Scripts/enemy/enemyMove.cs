@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+//this script is designed mainly to navigate the enemies towards the player, but they will also navigate towards generators
+//and player structures if close enough or if navigating to the player is not currently possible 
 // this script requires the unity navmesh to work
 public class enemyMove : MonoBehaviour {
 
