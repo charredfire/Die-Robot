@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script handles the targeting and activation of enemy attacks via colliders and handles the associated special effects
 public class enemyattack : MonoBehaviour {
 	public float timeBetweenAttacks = 0.5f;
 	public int attackDamage = 10;
