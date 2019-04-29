@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script handles the enemies health, including initialazation, taking damage, and being destroyed
 public class enemyHealth : MonoBehaviour {
 	public int startingHealth = 100;
 	public int currentHealth;
